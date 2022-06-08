@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 5px auto;
+    width: 1515px;
+}
+/* header */
+header {
+    width: 100%;
+    display: flex;
+}
+
+.ha {
+    margin-top: 60px;
+    width: 33%;
+    text-align: center;
+    font-size: 35px;
+    font-family: Courier;
+    color: blue;
+}
+
+.logo {
+    width: 33%;
+    text-align: center;
+}
+
+.logo img {
+    width: 50%;
+}
+
+.a {
+    width: 33%;
+    text-align: center;
+}
+
+.but1 {
+    margin-top: 20px;
+    width: 25%;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid black;
+    background-color: white;
+    font-size: large;
+    color: black;
+}
+
+.but2 {
+    margin-top: 30px;
+    width: 25%;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid black;
+    background-color: white;
+    margin-left: 200px;
+    font-size: large;
+    color: black;
+}
+
+/* over header */
+
+/* menu */
+nav {
+    width: 100%; 
+    background-color: rgb(46, 110, 230);
+    display: flex;
+    text-align: center;
+}
+
+
+
+ul {
+    width: 100%;
+    height: 50px;
+    display: block;
+}
+
+ul li {
+    display: inline-block;
+    padding-top: 15px;
+}
+
+ul li a{
+    text-decoration: none;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    color: white;
+}
+
+ul li a:hover {
+    color: rgb(37, 222, 222);
+}
+
+/* over menu */
+
+/* banner */
+.banner {
+    text-align: center;
+}
+
+.banner img {
+    width: 100%;
+    height: 470px;
+}
+
+/* over banner */
+
+/* content */
+.sanpham {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+
+.danhmuc {
+    width: 25%;
+}
+
+.danhmuc h2 {
+    color: blue;
+    font-family: Arial;
+    margin-left: 20px;
+}
+
+.danhmuc h3 {
+    font-family: Arial;
+    color: rgb(45, 45, 236);
+    margin-left: 20px;
+}
+
+.sanpham1 {
+    width: 73%;
+    margin-left: 20px;
+}
+
+.anh-sp {
+    width: 100%;
+    display: flex;
+}
+
+.anh-sp img {
+    width: 30%;
+}
+
+.sanphamz {
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.sanphamz p {
+    margin-bottom: 10px;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(71, 71, 245);
+}
+
+.sanphamz h3 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+
+.thongtinsp {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.thongtinsp h2 {
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(71, 71, 245);
+}
+
+.but222 {
+    margin-top: 60px;
+    margin-left: 300px;
+    width: 100;
+}
+
+button {
+    width: 180px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: rgb(60, 60, 233);
+    color: white;
+    font-size: larger;
+}
+
+button:hover {
+    background-color: tomato;
+}
+
+/* over content */
+
+
+footer {
+    min-height: 400px;
+    background-image: url("../img/footer.jpg");
+    text-align: center;
+    padding-top: 40px;
+    margin-top: 12px;
+    width: 100%;
+    display: flex;
+}
+
+footer h2 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(159, 57, 25);
+    margin-bottom: 20px;
+    margin-top: 18px;
+}
+
+footer h4 {
+    color: blueviolet;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    border-radius: 7px;
+    padding-left: 6px;
+    margin-top: 20px
+}
+
+input:hover {
+    background-color: rgb(233, 186, 100);
+}
+
+footer button {
+    width: 70px;
+    height: 30px;
+    border-radius: 6px;
+    background-color: brown;
+    color: white;
+}
+
+footer button:hover {
+    background-color: tomato;
+}
+
+.thongtin {
+    width: 33%;
+}
+
+.thongtin h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+.thongtin p {
+    margin-top: 6px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    color: #fff; 
+}

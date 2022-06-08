@@ -1,0 +1,66 @@
+body {
+    background-color: royalblue;
+}
+.container {
+    margin: 0 auto;
+    border: 2px solid gray;
+    margin-top: 40px;
+    width: 500px;
+    border-radius: 20px;
+    background-color: rgb(243, 243, 243);
+}
+
+.td {
+    width: 100%;
+    text-align: center;
+}
+
+h2{
+    color:red;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:50px;
+    margin: 20 auto;
+}
+
+label{
+    font-weight: bold;
+    color:firebrick;
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+input{
+    width: 80%;
+    height: 40px;
+    padding-left: 20px;
+    border-radius: 15px;
+    border: 2px solid rgb(91, 177, 6);
+    margin-left: 30px;
+}
+
+input:hover{
+    background-color: bisque;
+}
+
+.but {
+    width: 100%;
+    text-align: center;
+}
+
+button {
+    width: 20%;
+    height: 40px;
+    border-radius: 15px;
+    font-weight: bold;
+    color: rgb(255, 253, 253);
+    margin-bottom: 50px;
+    background-color: rgb(46, 110, 230);
+}
+
+button:hover {
+    background-color: tomato
+}
+
+span {
+    margin-left: 30px;
+}

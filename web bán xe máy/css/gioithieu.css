@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 5px auto;
+    width: 1516px;
+}
+
+.ha {
+    margin-top: 22px;
+    width: 100%;
+    text-align: center;
+    font-size: 23px;
+    font-family: Courier;
+    color: blue;
+}
+
+nav {
+    width: 100%; 
+    background-color: rgb(230, 166, 46);
+    display: flex;
+    text-align: center;
+}
+
+.logo {
+    width: 100%;
+    text-align: center;
+}
+
+.logo img {
+    width: 22%;
+    background-color: #fff;
+}
+
+ul {
+    width: 100%;
+    height: 50px;
+    display: block;
+}
+
+ul li {
+    display: inline-block;
+    padding-top: 15px;
+}
+
+ul li a{
+    text-decoration: none;
+    margin-left: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+
+ul li a:hover {
+    color: rgb(30, 118, 169);
+}
+
+.banner {
+    text-align: center;
+}
+
+.banner img {
+    width: 100%;
+    height: 420px;
+}
+
+.content {
+    width: 100%;
+}
+
+.td {
+    width: 100%;
+    text-align: center;
+    font-size: larger;
+    font-family: Courier;
+    color: rgb(101, 59, 141);
+    min-height: 60px;
+    padding-top: 13px;
+    margin-top: 15px;
+}
+
+.sanpham-all {
+    width: 100%;
+    margin-top: 12px;
+    display: flex;
+    padding-right: 12px;
+    padding-top: 23px;
+    height: 450px;
+}
+
+.sanpham {
+    width: 33%;
+    border: 1px solid gray;
+    border-radius: 7px;
+    padding: 6px 6px 6px 6px;
+    text-align: center;
+    margin-left: 15px;
+}
+
+.sanpham p {
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+
+.sanpham img {
+    width: 100%;
+    height: 330px;
+}
+
+footer {
+    min-height: 400px;
+    background-image: url("img/footer.jpg");
+    text-align: center;
+    padding-top: 40px;
+    margin-top: 12px;
+}
+
+footer h2 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(159, 57, 25);
+    margin-bottom: 20px;
+}
+
+footer h4 {
+    color: blueviolet;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    border-radius: 7px;
+    padding-left: 6px;
+}
+
+input:hover {
+    background-color: rgb(233, 186, 100);
+}
+
+button {
+    width: 70px;
+    height: 30px;
+    border-radius: 6px;
+    background-color: brown;
+    color: white;
+}
+
+button:hover {
+    background-color: tomato;
+}
